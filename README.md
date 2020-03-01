@@ -1,2 +1,3 @@
-# lambda-treasure-test
-test bed for build week
+# Lambda Treasure Hunt
+## CS25 build week 2
+test bed for backend algorithms
