@@ -3,13 +3,6 @@ import requests
 import time
 from graph import Graph
 
-def limit_world(data):
-    if data['room_id'] == 0:
-        data['exits'] = ["n", "s", "e"]
-    elif data['room_id'] == 1:
-        data['exits'] = ["w"]
-    return data
-
 def explore_world(base_url, headers):
     print("Starting!\n-----------\n")
     # create a graph object
@@ -17,10 +10,7 @@ def explore_world(base_url, headers):
 
     # create a player
     r = requests.get(base_url + "init/", headers=headers)
-    # explore_world.add_room(r.json())
-    restricted_world = limit_world(r.json())
-    explore_world.add_room(restricted_world)
-    # switch statements above
+    explore_world.add_room(r.json())
     current_room_id = r.json()['room_id']
     # set cooldown
     time_for_next_action = time.time() + r.json()['cooldown']
@@ -71,15 +61,12 @@ def explore_world(base_url, headers):
             print(f'message: {msg}')
             print('-----')
             # store new info
-            # explore_world.add_room(r.json())
-            restricted_world = limit_world(r.json())
-            explore_world.add_room(restricted_world)
-            # switch statements above
+            explore_world.add_room(r.json())
             explore_world.add_connection(prev_room_id, current_room_id, direction)
             # set cooldown
             time_for_next_action = time.time() + r.json()['cooldown']
 
-    # with open('rooms.json', 'w') as f:
-    #     f.write(json.dumps(explore_world.rooms, indent=2))
+    with open('rooms.json', 'w') as f:
+        f.write(json.dumps(explore_world.rooms, indent=2))
 
     print("-----------\nAll done!")

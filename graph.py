@@ -10,7 +10,8 @@ class Graph():
     def add_room(self, data):
         """Add a room (vertex) to graph"""
         room_id = data['room_id']
-        room_data = {'title': data['title'],
+        room_data = {'room_id': data['room_id'],
+                     'title': data['title'],
                      'description' : data['description'],
                      'coordinates': data['coordinates'],
                      'elevation': data['elevation'],
@@ -18,7 +19,6 @@ class Graph():
                      'exits' : {direction: '?' for direction in data['exits']}
                      }
         self.rooms.setdefault(room_id, room_data)
-
 
     def add_connection(self, room1_id, room2_id, direction):
         """Add directed connection (edges) between two exits"""
@@ -36,6 +36,45 @@ class Graph():
             if egress == '?':
                 return direction
         return None
+
+    def get_exits(self, room_id):
+        """Get all exits (edges) of a room (vertex)"""
+        return self.rooms[room_id]['exits']
+
+    def bfs_to_unexplored(self, starting_room_id):
+        """Find path to shortest unexplored room using breadth-first search"""
+        queue = Queue()
+        # paths will contain tuple of (direction, room_id)
+        queue.enqueue([(None, starting_room_id)])
+        visited = set()
+
+        while queue.size() > 0:
+            current_path = queue.dequeue()
+            current_room_id = current_path[-1][1]
+            current_exits = self.get_exits(current_room_id)
+
+            if '?' in current_exits.values():
+                # slice off the current room and return path
+                return current_path[1:]
+
+            if current_room_id not in visited:
+                visited.add(current_room_id)
+                for direction, room_id in current_exits.items():
+                    path_to_next_room = current_path + [(direction, room_id)]
+                    queue.enqueue(path_to_next_room)
+
+        return None
+
+    """
+    All of the code below is being saved just in case there is time to further
+    optimize before the world is explored. Delete this and below after world 
+    is fully mapped.
+    """
+
+
+    # def get_coordinates(self, room_id):
+    #     """Get coordinates of a room (vertex)"""
+    #     return self.rooms[room_id]['coordinates']
 
     # def find_unexplored(self, room_id):
     # """Look for closest unexplored exit and return a path to it"""
@@ -70,15 +109,6 @@ class Graph():
     #                 q.append(path + [next_room])
 
     # return None
-
-
-    def get_exits(self, room_id):
-        """Get all exits (edges) of a room (vertex)"""
-        return self.rooms[room_id]['exits']
-
-    def get_coordinates(self, room_id):
-        """Get coordinates of a room (vertex)"""
-        return self.rooms[room_id]['coordinates']
 
     # # Navigate to next room and update graph
     # def take_exit(self, direction):
@@ -136,30 +166,6 @@ class Graph():
     #             self.dft_recursive(new_room, finished)
     #         else:
     #             finished.add(starting_room)
-
-    def bfs_to_unexplored(self, starting_room_id):
-        """Find path to shortest unexplored room using breadth-first search"""
-        queue = Queue()
-        # paths will contain tuple of (direction, room_id)
-        queue.enqueue([(None, starting_room_id)])
-        visited = set()
-
-        while queue.size() > 0:
-            current_path = queue.dequeue()
-            current_room_id = current_path[-1][1]
-            current_exits = self.get_exits(current_room_id)
-
-            if '?' in current_exits.values():
-                # slice off the current room and return path
-                return current_path[1:]
-
-            if current_room_id not in visited:
-                visited.add(current_room_id)
-                for direction, room_id in current_exits.items():
-                    path_to_next_room = current_path + [(direction, room_id)]
-                    queue.enqueue(path_to_next_room)
-
-        return None
 
     # # Convert list of room IDs to lists of directions to add to traversal path
     # def convert_path_to_directions(self, list_rooms):
