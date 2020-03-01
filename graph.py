@@ -5,7 +5,6 @@ from utils import Queue
 
 class Graph():
     def __init__(self):
-        self.world_map = {}
         self.rooms = {}
 
     def add_room(self, data):
@@ -16,39 +15,70 @@ class Graph():
                      'coordinates': data['coordinates'],
                      'elevation': data['elevation'],
                      'terrain': data['terrain'],
-                     'exits:' : data['exits']
+                     'exits' : {direction: '?' for direction in data['exits']}
                      }
-        self.world_map.setdefault(room_id, room_data)
-        self.rooms.setdefault(room_id, {})
-        for egress in data['exits']:
-            self.rooms[room_id][egress] = '?'
+        self.rooms.setdefault(room_id, room_data)
 
 
     def add_connection(self, room1_id, room2_id, direction):
         """Add directed connection (edges) between two exits"""
         opposite_direction = {'n': 's', 's': 'n', 'e': 'w', 'w': 'e'}
         if room1_id in self.rooms and room2_id in self.rooms:
-            self.rooms[room1_id][direction] = room2_id
-            self.rooms[room2_id][opposite_direction[direction]] = room1_id
+            self.rooms[room1_id]['exits'][direction] = room2_id
+            self.rooms[room2_id]['exits'][opposite_direction[direction]] = room1_id
         else:
             raise IndexError('That room does not exist!')
 
-    def pick_unexplored(self, room_id):
+    def pick_unexplored(self, room_id, directions_sequence=['n', 'e', 's', 'w']):
         """Using a fixed order, return a room's first unexplored direction"""
-        directions_sequence = ['n', 's', 'e', 'w']
         for direction in directions_sequence:
-            egress = self.rooms[room_id].get(direction, None)
+            egress = self.rooms[room_id]['exits'].get(direction, None)
             if egress == '?':
                 return direction
         return None
 
-    # # Get all exits (edges) of a room (vertex)
-    # def get_exits(self, room_id):
-    #     return self.rooms[room_id][0]
+    # def find_unexplored(self, room_id):
+    # """Look for closest unexplored exit and return a path to it"""
+    # q = Queue()
+    # # Add a path with the room_id to the queue
+    # q.enqueu([room_id])
+    # # Create an empty set to store visited rooms
+    # visited_rooms = set()
+    # # While the queue is not empty...
+    # while q.size() > 0:
+    #     # Dequeue the first path
+    #     path = q.dequeue(0)
+    #     # grab the last room from the path
+    #     room = path[-1]
+    #     # if last room has an unexplored exit, return the path
+    #     if pick_unexplored(graph[room]) is not None:
+    #         create_directions(path)
+    #         rewind = []
+    #         for i in range(1, len(path)):
+    #             for room_direction, room_id in graph[path[i-1]].items():
+    #                 if room_id == path[i]:
+    #                     rewind.append(room_direction)
+    #                     break
+    #         return rewind
+    #     # If it has not been visited...
+    #     if room not in visited:
+    #         # Mark it as visited
+    #         visited.add(room)
+    #         # Then add a path to all unvisited rooms to the back of the queue
+    #         for next_room in graph[room].values():
+    #             if next_room not in visited:
+    #                 q.append(path + [next_room])
 
-    # # Get coordinates of a room (vertex)
-    # def get_coordinates(self, room_id):
-    #     return self.rooms[room_id][1]
+    # return None
+
+
+    def get_exits(self, room_id):
+        """Get all exits (edges) of a room (vertex)"""
+        return self.rooms[room_id]['exits']
+
+    def get_coordinates(self, room_id):
+        """Get coordinates of a room (vertex)"""
+        return self.rooms[room_id]['coordinates']
 
     # # Navigate to next room and update graph
     # def take_exit(self, direction):
@@ -107,29 +137,29 @@ class Graph():
     #         else:
     #             finished.add(starting_room)
 
-    # # Find path to shortest unexplored room using breadth-first search
-    # def bfs(self, starting_room=None):
-    #     starting_room = starting_room or self.player.current_room
-    #     queue = Queue()
-    #     queue.enqueue([starting_room.id])
-    #     visited = set()
+    def bfs_to_unexplored(self, starting_room_id):
+        """Find path to shortest unexplored room using breadth-first search"""
+        queue = Queue()
+        # paths will contain tuple of (direction, room_id)
+        queue.enqueue([(None, starting_room_id)])
+        visited = set()
 
-    #     while queue.size() > 0:
-    #         self.add_room(starting_room.id, starting_room.get_exits())
+        while queue.size() > 0:
+            current_path = queue.dequeue()
+            current_room_id = current_path[-1][1]
+            current_exits = self.get_exits(current_room_id)
 
-    #         current_path = queue.dequeue()
-    #         current_room_id = current_path[-1]
-    #         current_exits = self.get_exits(current_room_id)
+            if '?' in current_exits.values():
+                # slice off the current room and return path
+                return current_path[1:]
 
-    #         if '?' in current_exits.values():
-    #             self.convert_path_to_directions(current_path)
-    #             return
+            if current_room_id not in visited:
+                visited.add(current_room_id)
+                for direction, room_id in current_exits.items():
+                    path_to_next_room = current_path + [(direction, room_id)]
+                    queue.enqueue(path_to_next_room)
 
-    #         if current_room_id not in visited:
-    #             visited.add(current_room_id)
-    #             for exit in current_exits:
-    #                 path_to_next_room = [*current_path, current_exits[exit]]
-    #                 queue.enqueue(path_to_next_room)
+        return None
 
     # # Convert list of room IDs to lists of directions to add to traversal path
     # def convert_path_to_directions(self, list_rooms):
