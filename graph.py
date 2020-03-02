@@ -1,4 +1,5 @@
 from ast import literal_eval
+from models import Room
 from utils import Queue
 
 
@@ -18,6 +19,15 @@ class Graph():
                      'exits' : {direction: '?' for direction in data['exits']}
                      }
         self.rooms.setdefault(room_id, room_data)
+        new_room = Room(id=data['room_id'],
+                        title=data['title'],
+                        description=data['description'],
+                        x_coord=literal_eval(data['coordinates'])[0],
+                        y_coord=literal_eval(data['coordinates'])[1],
+                        elevation=data['elevation'],
+                        terrain=data['terrain']
+                        )
+        new_room.save()
 
     def add_connection(self, room1_id, room2_id, direction):
         """Add directed connection (edges) between two exits"""
@@ -25,6 +35,23 @@ class Graph():
         if room1_id in self.rooms and room2_id in self.rooms:
             self.rooms[room1_id]['exits'][direction] = room2_id
             self.rooms[room2_id]['exits'][opposite_direction[direction]] = room1_id
+            # update room info in database
+            rm_1 = Room.objects.get(id=room1_id)
+            rm_2 = Room.objects.get(id=room2_id)
+            if direction == 'n':
+                rm_1.n_to = room2_id
+                rm_2.s_to = room1_id
+            elif direction == 's':
+                rm_1.s_to = room2_id
+                rm_2.n_to = room1_id
+            elif direction == 'e':
+                rm_1.e_to = room2_id
+                rm_2.w_to = room1_id
+            elif direction == 'w':
+                rm_1.w_to = room2_id
+                rm_2.e_to = room1_id
+            rm_1.save()
+            rm_2.save()
         else:
             raise IndexError('That room does not exist!')
 
