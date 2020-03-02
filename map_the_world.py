@@ -1,14 +1,14 @@
 from graph import Graph
 import json
 import requests
-from models import Room
+# from models import Room
 import time
 
 def explore_world(base_url, headers):
     """Navigate the map and log all rooms"""
     print("Starting!\n-----------\n")
 
-    Room.objects.all().delete()
+    # Room.objects.all().delete()
     explore_world = Graph()
 
     r = requests.get(base_url + "init/", headers=headers)
