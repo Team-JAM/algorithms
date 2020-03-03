@@ -1,0 +1,9655 @@
+{
+  "room_id": 874,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 902,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(71,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 956,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(72,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 960,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(73,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 966,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(74,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "shrimp"
+  ],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 992,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(75,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 728,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 741,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 793,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 808,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 821,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 974,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 953,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 920,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 946,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(71,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 901,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 724,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 737,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 756,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 868,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 885,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 748,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 764,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 848,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 853,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 939,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(71,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 958,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 972,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(70,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 769,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 847,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 799,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 908,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 772,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 780,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 818,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 829,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "small treasure"
+  ],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 912,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 877,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 937,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 997,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 711,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 721,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 633,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 623,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 609,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "piddipenguin"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 603,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 618,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 631,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 646,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 662,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 675,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 768,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 520,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 579,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 601,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 617,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 645,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 629,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Hannah Tuttle"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 684,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 718,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 734,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 782,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 687,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 806,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 909,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "poor jacket",
+    "terrible boots",
+    "nice boots"
+  ],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 910,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 917,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 929,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 667,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 717,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "small treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "small treasure",
+    "tiny treasure",
+    "small treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "small treasure"
+  ],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 820,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 866,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 876,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 519,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 563,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 583,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 595,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 518,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 507,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Phil Smith",
+    "Dr Cooldown"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 514,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 521,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 522,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 536,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 658,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 678,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 703,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 709,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 736,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 786,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 798,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 889,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 919,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 923,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 915,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 961,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 712,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 739,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 733,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 740,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 751,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 810,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 794,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 802,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 830,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 865,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 924,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 979,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "small treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure"
+  ],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 897,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 986,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 841,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 962,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 963,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Kathryn"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 982,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 995,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure"
+  ],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 996,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(69,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 896,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 770,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 672,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 515,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 576,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 582,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 642,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 644,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 664,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 680,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 578,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 506,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 531,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 504,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 544,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 552,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 604,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 500,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "SPECTRA"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 503,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 502,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "shiny treasure",
+    "shiny treasure",
+    "shiny treasure",
+    "shiny treasure",
+    "tiny treasure",
+    "shiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure"
+  ],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 505,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Fully"
+  ],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 525,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 560,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 602,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 612,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 635,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 720,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 637,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 650,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 758,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 651,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 674,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 778,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 815,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 825,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 854,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 533,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 539,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 540,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 585,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 682,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 542,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 549,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 556,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 598,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 659,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 754,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 665,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 700,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 813,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 858,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 879,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 907,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 925,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 965,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 980,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 999,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(68,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Pascal_Bou"
+  ],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 831,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 723,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 816,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 600,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 610,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 732,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 779,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "small treasure",
+    "shiny treasure",
+    "tiny treasure",
+    "small treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "small treasure"
+  ],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 648,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 735,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 673,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 554,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 567,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 574,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 588,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 508,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 561,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 571,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 584,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 669,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 695,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 696,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 753,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 775,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure"
+  ],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 790,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 835,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 883,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 891,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 969,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(66,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 984,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(67,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 890,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 926,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 823,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 824,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 827,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 904,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 976,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 832,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 844,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 932,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(63,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 950,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(64,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 888,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 936,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 988,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 985,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(62,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 784,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 757,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 814,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 849,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 955,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 509,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 524,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 545,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 565,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 590,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 625,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 699,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 809,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 526,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 538,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 564,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 586,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 619,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 670,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 707,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 719,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 800,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 749,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "small treasure"
+  ],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 822,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 872,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 968,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 906,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 859,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Yuki"
+  ],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure"
+  ],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 938,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 975,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,47)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 983,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,46)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 599,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 632,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 654,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 677,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 691,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 716,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 836,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 860,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 941,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,47)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 947,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,46)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 761,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 863,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 913,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 922,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,47)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 964,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,46)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 959,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,47)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 873,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 914,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,48)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 899,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,49)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 837,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 948,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 998,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,50)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 704,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 774,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 842,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "nice jacket",
+    "poor boots",
+    "nice jacket",
+    "terrible boots",
+    "poor boots"
+  ],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 530,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 577,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 589,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 559,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 572,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 621,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 634,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 639,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 653,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 661,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "nice jacket",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "poor boots",
+    "well-crafted jacket"
+  ],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 788,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 867,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 881,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 898,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,51)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 884,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,52)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 690,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 817,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 702,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 715,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 791,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 855,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 852,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 903,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 951,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,53)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 978,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,54)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 636,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 607,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 640,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 693,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 694,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 765,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 870,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 882,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 630,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 755,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 766,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 931,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 857,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 875,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,56)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 989,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,55)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 918,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 933,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 994,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,57)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 569,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 615,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 510,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "poor boots"
+  ],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 517,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 513,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 550,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 570,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 532,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 553,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 593,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 568,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 573,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 580,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 606,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 608,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 752,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 722,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 763,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 826,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,58)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 846,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "terrible jacket"
+  ],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 501,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 523,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 529,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 511,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 512,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 534,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 551,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 591,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 627,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 643,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 676,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 726,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 773,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 789,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 795,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 804,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 971,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,75)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 970,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 811,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(59,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 934,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 945,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,75)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 967,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,76)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 746,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 771,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 801,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(61,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 686,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(60,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 668,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 706,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 743,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 760,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 750,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 776,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 777,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 785,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 894,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 935,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "small treasure"
+  ],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 957,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,75)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 805,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 838,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 851,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 940,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,74)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 845,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 895,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 916,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 993,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,72)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 987,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,73)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 840,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 887,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 949,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,71)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 738,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 688,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 745,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 792,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 730,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 558,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 587,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 594,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 649,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 622,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 641,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 663,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 683,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 713,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 747,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 839,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 911,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 921,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 990,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 991,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,70)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 828,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 592,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 697,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 541,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 543,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 546,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 557,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 548,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 655,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 605,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 679,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 611,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 656,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 727,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 759,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 880,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 886,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 624,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 689,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 516,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 528,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(58,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [
+    "nice jacket",
+    "nice boots",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure",
+    "tiny treasure"
+  ],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 555,
+  "title": "Wishing Well",
+  "description": "You are standing besides a large well. A sign next the well reads 'EXAMINE WELL, FIND WEALTH'.",
+  "coordinates": "(58,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "Labyrinth65",
+    "Aaron The Beast",
+    "Michael Mangus",
+    "Kevin Smith",
+    "Chance",
+    "Ad-R0ck",
+    "[Brett Madrid]"
+  ],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 535,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 562,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 566,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 596,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 597,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 626,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 657,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 705,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 708,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 581,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 614,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 527,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(57,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 537,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(56,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 547,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(55,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 575,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(54,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 613,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 616,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 638,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 647,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 666,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 833,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 900,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 928,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 729,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}
+{
+  "room_id": 731,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(53,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 803,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [
+    "LEILA BERROUAYEL"
+  ],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 834,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 905,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,68)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 977,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,69)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 701,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 620,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 660,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(52,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 692,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 698,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 714,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 783,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 871,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 942,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 742,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 843,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 710,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 628,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 671,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(51,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 781,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 787,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 861,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 930,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 862,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 878,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,67)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 681,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(50,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 685,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 767,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 796,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 850,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 954,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 973,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,65)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 981,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,66)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 819,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 893,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 944,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(46,64)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 744,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(49,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 797,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 812,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 892,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 943,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 952,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,59)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 807,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s",
+    "e",
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 856,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked north."
+  ]
+}
+{
+  "room_id": 864,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,61)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n",
+    "s"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 927,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(47,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "n"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked south."
+  ]
+}
+{
+  "room_id": 869,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(46,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 725,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(48,63)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "e"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked west."
+  ]
+}
+{
+  "room_id": 652,
+  "title": "Darkness",
+  "description": "You are standing on grass and surrounded by darkness.",
+  "coordinates": "(65,62)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": [],
+  "items": [],
+  "exits": [
+    "w"
+  ],
+  "cooldown": 11.0,
+  "errors": [],
+  "messages": [
+    "You have walked east."
+  ]
+}

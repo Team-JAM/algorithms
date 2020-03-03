@@ -7,6 +7,8 @@ import time
 def explore_world(base_url, headers):
     """Navigate the map and log all rooms"""
     print("Starting!\n-----------\n")
+    # open file for appending
+    append_file = open('rooms_underworld_appending.json', 'a')
 
     # Room.objects.all().delete()
     explore_world = Graph()
@@ -59,14 +61,24 @@ def explore_world(base_url, headers):
             print(f'Arrived in room {current_room_id}')
             print(f'cooldown: {cd}')
             print(f'message: {msg}')
+            print(f'rooms explored: {len(explore_world.rooms)}')
             print('-----')
             # store new info
+            append_file.write(json.dumps(r.json(), indent=2))
+            append_file.write('\n')
+
             explore_world.add_room(r.json())
             explore_world.add_connection(prev_room_id, current_room_id, direction)
             # set cooldown
             time_for_next_action = time.time() + r.json()['cooldown']
+            # append info
 
-    with open('rooms.json', 'w') as f:
+
+    # close file
+    append_file.close()
+
+    # write in one pass
+    with open('rooms_underworld.json', 'w') as f:
         f.write(json.dumps(explore_world.rooms, indent=2))
 
     print("-----------\nAll done!")
