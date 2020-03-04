@@ -55,12 +55,24 @@ while True:
     if current_room_id != WELL:
         navigate(current_room_id, WELL)
 
+    # Find the next snitch room as soon as a new one appears,
+    # or go anyway if one minute has passed.
     # examine well
     well()
-
     # decode message
     message = decode()
-    next_room = int(message[23:])
+    prev_room = int(message[23:])
+    room_find_start_time = time.time()
+    while True:
+        # examine well
+        well()
+
+        # decode message
+        message = decode()
+        next_room = int(message[23:])
+        if next_room != prev_room or time.time() > room_find_start_time + 60:
+            break
+    
     print(message + '\n')
 
     # navigate to room from message
