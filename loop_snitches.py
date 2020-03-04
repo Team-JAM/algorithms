@@ -11,7 +11,7 @@ import time
 import json
 import requests
 
-token = "a42506e85baef70dd9c66a7d0c090b10a3af26f8"
+token = "b183cb414e3eae854e3930946d0c9370040ea416"
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/"
 headers = {"Authorization": f"Token {token}"}
 
@@ -64,8 +64,9 @@ while True:
     print(message + '\n')
 
     # navigate to room from message
-    navigate(WELL, next_room)
-    current_room_id = next_room
+    if next_room != WELL:
+        navigate(WELL, next_room)
+        current_room_id = next_room
 
     # capture snitch if available
     result = requests.get(base_url + "adv/init/", headers=headers)
