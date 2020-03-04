@@ -10,7 +10,7 @@ if len(sys.argv) != 3:
     sys.exit(1)
 
 player = sys.argv[1]
-destination_room = sys.argv[2]
+destination_room = int(sys.argv[2])
 
 if player == 'allison' or player == 'a':
     token = 'b183cb414e3eae854e3930946d0c9370040ea416'
@@ -29,7 +29,7 @@ with open('all_rooms.json') as f:
 # get starting room
 r = requests.get(base_url + "adv/init/", headers=headers)
 try:
-    current_room_id = r.json()['room_id']
+    current_room_id = int(r.json()['room_id'])
     print(f'current room: {current_room_id}')
 except KeyError:
     print('Error: room_id does not exist')
