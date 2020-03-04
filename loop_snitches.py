@@ -32,7 +32,7 @@ def navigate(starting_room, destination_room):
 def well():
     payload = {"name": "well"}
     r = requests.post(base_url + "adv/examine/", headers=headers, json=payload)
-    print(r.json())
+    # print(r.json())
     description = r.json()['description']
     _, message = description.split('\n\n')
 
@@ -62,6 +62,7 @@ while True:
     # decode message
     message = decode()
     prev_room = int(message[23:])
+    print(f'\nfirst snitch room: {prev_room}')
     room_find_start_time = time.time()
     while True:
         # examine well
@@ -71,6 +72,7 @@ while True:
         message = decode()
         next_room = int(message[23:])
         if next_room != prev_room or time.time() > room_find_start_time + 60:
+            print(f'Time waiting: {time.time() - room_find_start_time}')
             break
     
     print(message + '\n')
@@ -87,7 +89,7 @@ while True:
         payload = {"name": "snitch"}
         result = requests.post(base_url + "adv/take/", headers=headers, json=payload)
         print(result.json())
-        print('********')
+        print('\n***************\n')
         time.sleep(result.json()['cooldown'])
     else:
         print('No snitch here.\n')
