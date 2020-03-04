@@ -2,7 +2,8 @@ import json
 import requests
 import time
 
-url = 'http://team-jam-api.herokuapp.com/api/get_directions'
+url = 'https://team-jam-api.herokuapp.com/api/get_directions'
+# url = 'http://localhost:8000/api/get_directions'
 
 def move_allison(starting_room, destination_room):
 
@@ -14,17 +15,20 @@ def move_allison(starting_room, destination_room):
 def move_matthew(starting_room, destination_room):
 
     payload = {"starting_room": str(starting_room), "destination_room": str(destination_room), "token": "a42506e85baef70dd9c66a7d0c090b10a3af26f8"}
-    r = requests.post(url, json=payload)
+    # breakpoint()
+    res = requests.post(url, json=payload)
     print("matthew")
-    print(r.content)
+    print(res.content)
     print('---dir(r)---')
-    print(dir(r))
+    print(dir(res))
+    print('---r.text---')
+    print(res.text)
     breakpoint()
 
 t_start = time.time()
 
 m_start = time.time()
-move_matthew(26, 1)
+move_matthew(145, 461)
 m_end = time.time()
 print(f'matthew time: {m_end - m_start}')
 

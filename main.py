@@ -9,8 +9,8 @@ headers = {"Authorization": f"Token {token}"}
 
 start = time.time()
 # explore_world(base_url, headers)
-gather_treasure(55, base_url, headers)
-# travel(555, base_url, headers)
+# gather_treasure(55, base_url, headers)
+travel(55, base_url, headers)
 end = time.time()
 
 print(f'Travel completed in {(end - start):.1f} seconds.')
