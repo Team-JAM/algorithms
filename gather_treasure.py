@@ -9,6 +9,7 @@ def gather_treasure(destination, base_url, headers):
     # initiate gather treasure mode
     r = requests.get(base_url + "init/", headers=headers)
     current_room_id = r.json()['room_id']
+    print(f'current room: {current_room_id}')
     # set cooldown
     time_for_next_action = time.time() + r.json()['cooldown']
 

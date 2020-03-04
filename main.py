@@ -1,14 +1,16 @@
 import time
 from map_the_world import explore_world
 from gather_treasure import gather_treasure
+from travel import travel
 
-token = "b183cb414e3eae854e3930946d0c9370040ea416"
+token = "a42506e85baef70dd9c66a7d0c090b10a3af26f8"
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/adv/"
 headers = {"Authorization": f"Token {token}"}
 
 start = time.time()
 # explore_world(base_url, headers)
-gather_treasure(134, base_url, headers)
+gather_treasure(55, base_url, headers)
+# travel(555, base_url, headers)
 end = time.time()
 
-# print(f'Exploration completed in {end - start} seconds.')
+print(f'Travel completed in {(end - start):.1f} seconds.')
