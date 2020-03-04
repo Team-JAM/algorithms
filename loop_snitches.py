@@ -1,10 +1,10 @@
 """
-Automatically navigates player to the well, decodes message using ls8 emulator, navigates to the given room, remains there until mines a coin successfully, and repeats
+Automatically navigates player to the well, decodes message using ls8 emulator,
+navigates to the given room, captures the snitch if it is present, and repeats.
 """
 from gather_treasure import gather_treasure
 from utils import Queue
 from loop_ls8 import decode
-from loop_miner import mine
 from optimized_path import optimized_path
 from optimized_travel import optimized_travel
 import time
@@ -15,7 +15,7 @@ token = "a42506e85baef70dd9c66a7d0c090b10a3af26f8"
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/"
 headers = {"Authorization": f"Token {token}"}
 
-WELL = 55
+WELL = 555
 
 # load room data
 with open('all_rooms.json') as f:
@@ -67,9 +67,16 @@ while True:
     navigate(WELL, next_room)
     current_room_id = next_room
 
-    # mine until receive a coin
-    result = {}
-    while result.get('messages') is None:
-        result = mine(headers)
-        time.sleep(result['cooldown'])
+    # capture snitch if available
+    result = requests.get(base_url + "adv/init/", headers=headers)
+    time.sleep(result.json()['cooldown'])
+    print('Arrived in snitch room!\n')
+    if 'golden snitch' in result.json()['items']:
+        payload = {"name": "snitch"}
+        result = requests.post(base_url + "adv/take/", headers=headers, json=payload)
+        print(result.json())
+        print('********')
+        time.sleep(result.json()['cooldown'])
+    else:
+        print('No snitch here.\n')
     
