@@ -1,5 +1,6 @@
-from optimized_path import optimized_path, get_directions
+from optimized_path import optimized_path
 from optimized_travel import optimized_travel
+from utils import Queue
 import sys
 import time
 import json
@@ -7,11 +8,10 @@ import requests
 import random
 
 if len(sys.argv) != 3:
-    print('Usage: loop_treasure.py player destination_room')
+    print('Usage: loop_treasure.py player mode')
     sys.exit(1)
 
 player = sys.argv[1]
-destination_room = int(sys.argv[2])
 
 if player == 'allison' or player == 'a':
     token = 'b183cb414e3eae854e3930946d0c9370040ea416'
@@ -20,10 +20,23 @@ elif player == 'matthew' or player == 'm':
 elif player == 'jonathan' or player == 'j':
     token = '3e4095700cd0b276081a3ac8d4ae04e54a89b92e'
 
+mode = sys.argv[2]
+
+if mode == 's' or mode == 'sell':
+    mode = 'sell'
+elif mode == 't' or mode == 'transmogrify':
+    mode = 'transmogrify'
+elif mode == 'w' or mode == 'walk':
+    mode = 'walk'
+else:
+    print("Error: mode not recognized")
+    sys.exit(1)
+
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/adv/"
 headers = {"Authorization": f"Token {token}"}
 
 STORE = 1
+TRANSMOGRIFIER = 495
 
 # load room data
 with open('all_rooms.json') as f:
@@ -49,7 +62,37 @@ def gather_treasure(path):
         # # check for items
         if len(items) > 0:
             print(f'Items found! {items}')
+            # sleep for cooldown
+            time.sleep(max(time_for_next_action - time.time(), 0))
             for item in items:
+                # check player status 
+                r = requests.post(f'{base_url}status/', headers=headers)
+                print(r.json())
+                cooldown = r.json()['cooldown']
+                encumbrance = r.json()['encumbrance']
+                strength = r.json()['strength']
+                time.sleep(cooldown)
+                if encumbrance >= strength - 1:
+                    if encumbrance > strength - 1:
+                        # drop an item if carrying too much
+                        payload = {"name": item}
+                        r = requests.post(f'{base_url}drop/', headers=headers, json=payload)
+                        print(f"You're carrying too much, so you dropped the {item}")
+                        # set cooldown
+                        time_for_next_action = time.time() + r.json()['cooldown']
+                        # sleep for cooldown
+                        time.sleep(max(time_for_next_action - time.time(), 0))
+                    if mode == 'sell':
+                        sell_items(heading[1], r.json()['inventory'])
+                        return "sell"
+                    elif mode == 'transmogrify':
+                        transmogrify_items(heading[1], r.json()['inventory'])
+                        return "transmogrfy"
+                    else:
+                        # mode is walk, so we're gonna stop here
+                        print("Inventory full, stopping walk")
+                        sys.exit(0)
+                # take item
                 payload = {"name": item}
                 # sleep for cooldown
                 time.sleep(max(time_for_next_action - time.time(), 0))
@@ -59,10 +102,7 @@ def gather_treasure(path):
                 time_for_next_action = time.time() + r.json()['cooldown']
                 # sleep for cooldown
                 time.sleep(max(time_for_next_action - time.time(), 0))
-                r = requests.post(f'{base_url}status/', headers=headers)
-                if r.json()['encumbrance'] >= r.json()['strength'] - 1:
-                    sell_items(heading[1], r.json()['inventory'])
-                    return
+    time.sleep(max(time_for_next_action - time.time(), 0))
     print('Finished walking.')
 
     # if good jacket or pair of boots, wear item
@@ -80,9 +120,65 @@ def sell_items(current_room, inventory):
     # sell treasure
     for item in inventory:
         payload = {'name': item, 'confirm': 'yes'}
-        r = requests.post(f'{base_url}sell/', headers=headers, payload=payload)
+        r = requests.post(f'{base_url}sell/', headers=headers, json=payload)
         print(f"Sold the {item}")
         time.sleep(r.json()['cooldown'])
+
+def transmogrify_items(current_room, inventory):
+    print('Ready to transmogrify!')
+    # get path to transmogrifier
+    if current_room != TRANSMOGRIFIER:
+        path = optimized_path(all_rooms, current_room, TRANSMOGRIFIER)
+        # walk to store
+        optimized_travel(path, token, base_url, headers)
+    # check lambda coin balance
+    r = requests.get('https://lambda-treasure-hunt.herokuapp.com/api/bc/get_balance/', headers=headers)
+    message = r.json()['messages'][0]
+    balance = int(message[22:24])
+    print(message)
+    time.sleep(r.json()['cooldown'])
+    # transmogrify treasure
+    for item in inventory:
+        if balance > 0:
+            payload = {'name': item}
+            r = requests.post(f'{base_url}transmogrify/', headers=headers, json=payload)
+            print(r.json()['messages'][0])
+            balance -= 1
+            time.sleep(r.json()['cooldown'])
+        else:
+            print("You're out of Lambda coins :(")
+            sys.exit(2)
+
+def get_directions(starting_room, destination_room, all_rooms):
+    # Create an empty queue
+    queue = Queue()
+    # Add a path for starting_room_id to the queue
+    # Add a second option that recalls to room zero first
+    # paths will contain tuple of (direction, room_id)
+    queue.enqueue([(None, starting_room)])
+    # queue.enqueue([(None, starting_room), (None, 0)])
+    # Create an empty set to store visited rooms
+    visited = set()
+    while queue.size() > 0:
+        # Dequeue the first path
+        path = queue.dequeue()
+        # Grab the last room from the path
+        room = path[-1][1]
+        # If room is the desination, return the path
+        if room == destination_room:
+            return path[1:]
+        # If it has not been visited...
+        if room not in visited:
+            # Mark it as visited
+            visited.add(room)
+            # Then add a path all neighbors to the back of the queue
+            current_room = all_rooms[str(room)]
+            adjacent_rooms = []
+            for e in current_room['exits']:
+                adjacent_rooms.append((e, current_room['exits'][e]))
+            for next_room in adjacent_rooms:
+                queue.enqueue(path + [next_room])
+
 
 r = requests.get(base_url + "adv/init/", headers=headers)
 try:
@@ -93,21 +189,37 @@ except KeyError:
     print(r.json())
 time.sleep(r.json()['cooldown'])
 
+r = requests.post(f'{base_url}status/', headers=headers)
+time.sleep(r.json()['cooldown'])
+if r.json()['encumbrance'] >= r.json()['strength'] - 1:
+    if mode == 'sell':
+        sell_items(current_room_id, r.json()['inventory'])
+        current_room_id = STORE
+    elif mode == 'transmogrify':
+        transmogrify_items(current_room_id, r.json()['inventory'])
+        current_room_id = TRANSMOGRIFIER
+
 # caves, traps, or any rooms only reachable by walking through caves or traps
 danger_zone = (488, 412, 310, 259, 263, 499, 456, 275, 242, 218, 216, 450, 445, 339, 287, 252, 234, 474, 447, 405, 303, 284, 368, 418, 415, 406, 361, 302, 469, 425, 454, 423, 408, 470, 459, 458, 422, 426, 457, 461)
 
-destination_room = random.randint(0, 499)
 while True:
+    # pick a new destination room
+    destination_room = random.randint(0, 499)
+    while current_room_id == destination_room or destination_room in danger_zone:
+            destination_room = random.randint(0, 499)
+
     # find a path to destination room
-    path = get_directions(all_rooms, current_room_id, destination_room)
+    path = get_directions(current_room_id, destination_room, all_rooms)
+    print(path)
 
     # travel along path, picking up treasure along the way
-    # when reach max encumbrance, sell items
+    # when reach max encumbrance, sell or transmogrify items
     print(f"Walking to room {destination_room}")
-    gather_treasure(path)
+    action = gather_treasure(path)
 
-    # pick a new destination room
-    new_room = random.randint(0, 499)
-    while new_room == destination_room or new_room in danger_zone:
-        new_room = random.randint(0, 499)
-    destination_room = new_room
+    if action == 'sell':
+        current_room_id = STORE
+    elif action == 'transmogrify':
+        current_room_id = TRANSMOGRIFIER
+    else: 
+        current_room_id = destination_room
