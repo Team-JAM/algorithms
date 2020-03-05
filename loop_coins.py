@@ -10,8 +10,21 @@ from optimized_travel import optimized_travel
 import time
 import json
 import requests
+import sys
 
-token = "a42506e85baef70dd9c66a7d0c090b10a3af26f8"
+if len(sys.argv) != 2:
+    print('Usage: loop_coins.py player')
+    sys.exit(1)
+
+player = sys.argv[1]
+
+if player == 'allison' or player == 'a':
+    token = 'b183cb414e3eae854e3930946d0c9370040ea416'
+elif player == 'matthew' or player == 'm':
+    token = 'a42506e85baef70dd9c66a7d0c090b10a3af26f8'
+elif player == 'jonathan' or player == 'j':
+    token = '3e4095700cd0b276081a3ac8d4ae04e54a89b92e'
+
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/"
 headers = {"Authorization": f"Token {token}"}
 
