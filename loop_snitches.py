@@ -11,7 +11,7 @@ import time
 import json
 import requests
 
-token = "b183cb414e3eae854e3930946d0c9370040ea416"
+token = "a42506e85baef70dd9c66a7d0c090b10a3af26f8"
 base_url = "https://lambda-treasure-hunt.herokuapp.com/api/"
 headers = {"Authorization": f"Token {token}"}
 
@@ -33,65 +33,104 @@ def well():
     payload = {"name": "well"}
     r = requests.post(base_url + "adv/examine/", headers=headers, json=payload)
     # print(r.json())
-    description = r.json()['description']
+    try:
+        description = r.json()['description']
+    except KeyError:
+        print(f'KeyError, r.text: {r.text}')
     _, message = description.split('\n\n')
 
     with open('wishing_well.ls8', 'w') as f:
         f.write(message)
-    
+
+    # print(f'well_cooldown_time: {r.json()["cooldown"]}')
+    # well_sleep_start = time.time()
+    # print(f'well_sleep_start: {well_sleep_start}')
     time.sleep(r.json()['cooldown'])
+    # well_sleep_end = time.time()
+    # print(f'well_sleep_end: {well_sleep_end}')
+    # print(f'time asleep in the well: {well_sleep_end - well_sleep_start}')
+    # print('--------------')
 
 
-r = requests.get(base_url + "adv/init/", headers=headers)
-try:
-    current_room_id = r.json()['room_id']
-    print(f'current room: {current_room_id}')
-except KeyError:
-    print('Error: room_id does not exist')
-time.sleep(r.json()['cooldown'])
+def main():
+    with open('snitch start log', 'a') as f:
+        current_time = time.time()
+        start_message = f'Starting snitch looping at {current_time}\n'
+        f.write(start_message)
 
-while True:
-    # navigate to well 
-    if current_room_id != WELL:
-        navigate(current_room_id, WELL)
+    r = requests.get(base_url + "adv/init/", headers=headers)
+    # print('---request text init---')
+    # print(r.text)
+    # print('-----------------------')
+    try:
+        current_room_id = r.json()['room_id']
+        # print(f'current room: {current_room_id}')
+    except KeyError:
+        print('Error: room_id does not exist')
+    # start_sleep = time.time()
+    # print(f'sleeping for {r.json()["cooldown"]}')
+    time.sleep(r.json()['cooldown'])
+    # end_sleep = time.time()
+    # print(f'slept for {end_sleep - start_sleep} seconds')
 
-    # Find the next snitch room as soon as a new one appears,
-    # or go anyway if 90 seconds have passed.
-    # examine well
-    well()
-    # decode message
-    message = decode()
-    prev_room = int(message[23:])
-    print(f'\nfirst snitch room: {prev_room}')
-    room_find_start_time = time.time()
     while True:
+        # navigate to well 
+        if current_room_id != WELL:
+            navigate(current_room_id, WELL)
+
+        # Find the next snitch room as soon as a new one appears,
+        # or go anyway if 50 seconds have passed.
         # examine well
         well()
-
         # decode message
         message = decode()
-        next_room = int(message[23:])
-        if next_room != prev_room or time.time() > room_find_start_time + 90:
-            print(f'Time waiting: {time.time() - room_find_start_time}')
-            break
-    
-    print(message + '\n')
+        # print(f'message: {message}, tail: {message[24:]}')
+        prev_room = int(message[24:])
+        print(f'\nfirst snitch room: {prev_room}')
+        room_find_start_time = time.time()
+        while True:
+            # examine well
+            well()
 
-    # navigate to room from message
-    if next_room != WELL:
-        navigate(WELL, next_room)
-        current_room_id = next_room
+            # decode message
+            message = decode()
+            next_room = int(message[24:])
+            if next_room != prev_room or time.time() > room_find_start_time + 50:
+                room_find_end_time = time.time()
+                print(f'Time waiting: {room_find_end_time - room_find_start_time}')
+                break
+        
+        print(message + '\n')
 
-    # capture snitch if available
-    result = requests.get(base_url + "adv/init/", headers=headers)
-    time.sleep(result.json()['cooldown'])
-    print('Arrived in snitch room!\n')
-    if 'golden snitch' in result.json()['items']:
-        payload = {"name": "snitch"}
-        result = requests.post(base_url + "adv/take/", headers=headers, json=payload)
-        print(result.json())
-        print('\n***************\n')
+        # navigate to room from message
+        if next_room != WELL:
+            navigate(WELL, next_room)
+            current_room_id = next_room
+
+        # capture snitch if available
+        result = requests.get(base_url + "adv/init/", headers=headers)
         time.sleep(result.json()['cooldown'])
-    else:
-        print('No snitch here.\n')
+        print('Arrived in snitch room!\n')
+        if 'golden snitch' in result.json()['items']:
+            payload = {"name": "snitch"}
+            result = requests.post(base_url + "adv/take/", headers=headers, json=payload)
+            print(result.json())
+            print('\n***************\n')
+            with open('snitch hit log', 'a') as f:
+                current_time = time.time()
+                possible_snitch_message = f'possible snitch at {current_time}\n{result.json()}\n\n'
+                f.write(possible_snitch_message)
+            time.sleep(result.json()['cooldown'])
+        else:
+            print('No snitch here.\n')
+            with open('snitch miss log', 'a') as f:
+                current_time = time.time()
+                miss_message = f'miss at {current_time}\n'
+                f.write(miss_message)
+        
+
+        with open('snitch wait log', 'a') as f:
+            current_time = time.time()
+            wait_message = f'Time waiting before event at {current_time}: {room_find_end_time - room_find_start_time}\n'
+            f.write(wait_message)
     

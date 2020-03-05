@@ -1,0 +1,141 @@
+possible snitch at 1583379491.3214042
+{'room_id': 515, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(61,64)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583379664.0111747
+{'room_id': 965, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(67,52)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583379874.7420948
+{'room_id': 800, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(59,51)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380044.645123
+{'room_id': 812, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(48,61)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['mrpizza'], 'items': [], 'exits': ['n', 's'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380186.7601867
+{'room_id': 551, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(59,66)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380334.197498
+{'room_id': 792, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(56,70)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380477.675909
+{'room_id': 995, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(68,69)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': ['tiny treasure'], 'exits': ['s', 'e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380599.562577
+{'room_id': 513, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(57,59)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380693.3254387
+{'room_id': 680, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(62,68)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380822.2412992
+{'room_id': 967, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(58,76)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583380924.062452
+{'room_id': 511, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(59,63)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583381269.7118733
+{'room_id': 898, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(53,51)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583381958.5355704
+{'room_id': 587, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(57,66)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583382047.2922146
+{'room_id': 721, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(66,62)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583382180.9459713
+{'room_id': 758, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(66,59)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583382303.1010447
+{'room_id': 942, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(49,59)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583382513.6519015
+{'room_id': 790, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(63,52)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583382942.3780928
+{'room_id': 966, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(74,61)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['shrimp'], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383228.859595
+{'room_id': 983, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(58,46)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383339.9736662
+{'room_id': 739, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(63,70)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383475.4535542
+{'room_id': 785, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(58,73)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383597.7749448
+{'room_id': 611, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(54,64)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383720.9988625
+{'room_id': 986, 'title': 'Snitch Board', 'description': 'A generic board stands before you with a golden snitch carved into the top.', 'coordinates': '(68,70)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['Jonathan Taylor'], 'items': [], 'exits': ['w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383880.1599755
+{'room_id': 988, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(61,48)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583383988.1193225
+{'room_id': 669, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(60,54)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583384072.105543
+{'room_id': 641, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(56,67)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583384303.46804
+{'room_id': 675, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(66,64)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s', 'e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583384404.5113385
+{'room_id': 608, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(53,58)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583384713.3838148
+{'room_id': 824, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(63,51)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583384853.7745426
+{'room_id': 808, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(69,63)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's', 'e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385000.9644258
+{'room_id': 922, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(56,47)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385274.414628
+{'room_id': 918, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(50,57)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385392.9678147
+{'room_id': 927, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(47,60)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385674.9602358
+{'room_id': 588, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(61,55)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385791.8270686
+{'room_id': 710, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(50,62)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385894.5552664
+{'room_id': 911, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(54,70)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583385997.2421765
+{'room_id': 544, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(61,61)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583386220.359257
+{'room_id': 944, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(46,64)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['am&a'], 'items': [], 'exits': ['e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583394706.0146847
+{'room_id': 804, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(60,74)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583416287.3913083
+{'room_id': 634, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(56,55)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 's', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583416541.8018339
+{'room_id': 518, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(61,63)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583417426.2262805
+{'room_id': 725, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(48,63)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['harliquinn'], 'items': [], 'exits': ['e'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583418340.8112354
+{'room_id': 659, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(64,56)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583418687.8819213
+{'room_id': 663, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(56,68)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['s'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583419527.0304317
+{'room_id': 602, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(63,60)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583420092.2953925
+{'room_id': 611, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(54,64)', 'elevation': 0, 'terrain': 'NORMAL', 'players': [], 'items': [], 'exits': ['n', 'e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+
+possible snitch at 1583420254.2715006
+{'room_id': 535, 'title': 'Darkness', 'description': 'You are standing on grass and surrounded by darkness.', 'coordinates': '(57,62)', 'elevation': 0, 'terrain': 'NORMAL', 'players': ['mrpizza'], 'items': [], 'exits': ['e', 'w'], 'cooldown': 1.0, 'errors': [], 'messages': ['A great warmth floods your body as your hand closes around the snitch before it vanishes.']}
+

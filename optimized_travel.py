@@ -19,7 +19,10 @@ def optimized_travel(path_directions, token, base_url, headers):
         # time.sleep(max(time_for_next_action - time.time(), 0))
         # move
         r = requests.post(f'{base_url}adv/{travel_mode}/', headers=headers, json=payload)
-        print("moved to room: ", r.json()['room_id'])
+        # print('---request text travel---')
+        # print(r.text)
+        # print('-------------------------')
+        print(f"{travel_mode} to room: ", r.json()['room_id'])
         print(r.json())
         print()
         # set cooldown
