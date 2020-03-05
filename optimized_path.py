@@ -14,6 +14,18 @@ def get_pathing(path, all_rooms):
         # if so, start with recall
         path_directions.append(['recall'])
         next_position += 1
+    # if room 0 IS first step and starting room IS adjacent to room 0
+    elif path[1][1] == 0 and path[0][1] in {1, 2, 4, 10}:
+        # add direction to room 0 from starting room
+        print(path[0][1])
+        if path[0][1] == 1:
+            path[1] = ('e', 0)
+        if path[0][1] == 2:
+            path[1] = ('n', 0)
+        if path[0][1] == 4:
+            path[1] = ('w', 0)
+        if path[0][1] == 10:
+            path[1] = ('s', 0)
 
     while next_position < len(path):
 
@@ -75,3 +87,11 @@ def get_directions(starting_room, destination_room, all_rooms):
                 adjacent_rooms.append((e, current_room['exits'][e]))
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
+
+# testing purposes
+# import json
+# # load room data
+# with open('all_rooms.json') as f:
+#     all_rooms = json.load(f)
+
+# optimized_path(all_rooms, 6, 15)
