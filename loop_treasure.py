@@ -77,7 +77,7 @@ def gather_treasure(path):
                 time.sleep(max(time_for_next_action - time.time(), 0))
                 # check player status 
                 r = requests.post(f'{base_url}status/', headers=headers)
-                print(r.json())
+                print(f"Inventory: {r.json()['inventory']}")
                 cooldown = r.json()['cooldown']
                 encumbrance = r.json()['encumbrance']
                 strength = r.json()['strength']
@@ -86,10 +86,10 @@ def gather_treasure(path):
                     if encumbrance > strength - 1:
                         # drop an item if carrying too much
                         payload = {"name": item}
-                        r = requests.post(f'{base_url}drop/', headers=headers, json=payload)
+                        r_drop = requests.post(f'{base_url}drop/', headers=headers, json=payload)
                         print(f"You're carrying too much, so you dropped the {item}")
                         # set cooldown
-                        time_for_next_action = time.time() + r.json()['cooldown']
+                        time_for_next_action = time.time() + r_drop.json()['cooldown']
                         # sleep for cooldown
                         time.sleep(max(time_for_next_action - time.time(), 0))
                     if mode == 'sell':
@@ -123,6 +123,11 @@ def sell_items(current_room, inventory):
         r = requests.post(f'{base_url}sell/', headers=headers, json=payload)
         print(f"Sold the {item}")
         time.sleep(r.json()['cooldown'])
+
+    r = requests.post(f'{base_url}status/', headers=headers)
+    print(f"Gold: {r.json()['gold']}")
+    cooldown = r.json()['cooldown']
+    time.sleep(cooldown)
 
 def transmogrify_items(current_room, inventory):
     print('Ready to transmogrify!')
@@ -179,7 +184,6 @@ def get_directions(starting_room, destination_room, all_rooms):
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
 
-
 r = requests.get(base_url + "adv/init/", headers=headers)
 try:
     current_room_id = r.json()['room_id']
@@ -188,6 +192,15 @@ except KeyError:
     print('Error: room_id does not exist')
     print(r.json())
 time.sleep(r.json()['cooldown'])
+
+# warp player if not in light world
+if current_room_id not in range(0, 500):
+    print("Warping to light world")
+    r = requests.post(base_url + "adv/warp/", headers=headers)
+    print(r.json()['messages'][0])
+    current_room_id = r.json()['room_id']
+    print(f"Now in room {current_room_id}")
+    time.sleep(r.json()['cooldown'])
 
 r = requests.post(f'{base_url}status/', headers=headers)
 time.sleep(r.json()['cooldown'])

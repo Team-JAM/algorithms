@@ -91,12 +91,12 @@ while True:
         # examine well
         well()
 
-    #     # decode message
-    #     message = decode()
-    #     next_room = int(message[23:])
-    #     if next_room != prev_room or time.time() > room_find_start_time + 90:
-    #         print(f'Time waiting: {time.time() - room_find_start_time}')
-    #         break
+        # decode message
+        message = decode()
+        next_room = int(message[23:])
+        if next_room != prev_room or time.time() > room_find_start_time + 90:
+            print(f'Time waiting: {time.time() - room_find_start_time}')
+            break
     
     print(message + '\n')
 
