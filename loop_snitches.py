@@ -64,6 +64,15 @@ except KeyError:
     print(r.json())
 time.sleep(r.json()['cooldown'])
 
+# warp player if not in dark world
+if current_room_id not in range(500, 1000):
+    print("Warping to dark world")
+    r = requests.post(base_url + "adv/warp/", headers=headers)
+    print(r.json()['messages'][0])
+    current_room_id = r.json()['room_id']
+    print(f"Now in room {current_room_id}")
+    time.sleep(r.json()['cooldown'])
+
 while True:
     # navigate to well 
     if current_room_id != WELL:
@@ -82,12 +91,12 @@ while True:
         # examine well
         well()
 
-        # decode message
-        message = decode()
-        next_room = int(message[23:])
-        if next_room != prev_room or time.time() > room_find_start_time + 90:
-            print(f'Time waiting: {time.time() - room_find_start_time}')
-            break
+    #     # decode message
+    #     message = decode()
+    #     next_room = int(message[23:])
+    #     if next_room != prev_room or time.time() > room_find_start_time + 90:
+    #         print(f'Time waiting: {time.time() - room_find_start_time}')
+    #         break
     
     print(message + '\n')
 
