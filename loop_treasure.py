@@ -65,6 +65,16 @@ def gather_treasure(path):
             # sleep for cooldown
             time.sleep(max(time_for_next_action - time.time(), 0))
             for item in items:
+                # take item
+                payload = {"name": item}
+                # sleep for cooldown
+                time.sleep(max(time_for_next_action - time.time(), 0))
+                r = requests.post(f'{base_url}take/', headers=headers, json=payload)
+                print(f'I picked up {item}')
+                # set cooldown
+                time_for_next_action = time.time() + r.json()['cooldown']
+                # sleep for cooldown
+                time.sleep(max(time_for_next_action - time.time(), 0))
                 # check player status 
                 r = requests.post(f'{base_url}status/', headers=headers)
                 print(r.json())
@@ -92,16 +102,6 @@ def gather_treasure(path):
                         # mode is walk, so we're gonna stop here
                         print("Inventory full, stopping walk")
                         sys.exit(0)
-                # take item
-                payload = {"name": item}
-                # sleep for cooldown
-                time.sleep(max(time_for_next_action - time.time(), 0))
-                r = requests.post(f'{base_url}take/', headers=headers, json=payload)
-                print(f'I picked up {item}')
-                # set cooldown
-                time_for_next_action = time.time() + r.json()['cooldown']
-                # sleep for cooldown
-                time.sleep(max(time_for_next_action - time.time(), 0))
     time.sleep(max(time_for_next_action - time.time(), 0))
     print('Finished walking.')
 
