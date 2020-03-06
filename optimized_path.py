@@ -108,6 +108,8 @@ def reorder_queue(queue):
                 break
             if hops > 2:
                 next_position += hops
+                # add 1 for dash not having wise explorer bonus
+                steps += 1
             else:
                 next_position += 1
         steps += 1
