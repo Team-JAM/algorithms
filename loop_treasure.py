@@ -184,55 +184,60 @@ def get_directions(starting_room, destination_room, all_rooms):
             for next_room in adjacent_rooms:
                 queue.enqueue(path + [next_room])
 
-r = requests.get(base_url + "adv/init/", headers=headers)
-try:
-    current_room_id = r.json()['room_id']
-    print(f'current room: {current_room_id}')
-except KeyError:
-    print('Error: room_id does not exist')
-    print(r.json())
-time.sleep(r.json()['cooldown'])
-
-# warp player if not in light world
-if current_room_id not in range(0, 500):
-    print("Warping to light world")
-    r = requests.post(base_url + "adv/warp/", headers=headers)
-    print(r.json()['messages'][0])
-    current_room_id = r.json()['room_id']
-    print(f"Now in room {current_room_id}")
+def hunt_treasure(time_to_eat=None):
+    # if not eating, set timer for 24 hours
+    if time_to_eat is None:
+        time_to_eat = time.time() + 86400
+        
+    r = requests.get(base_url + "adv/init/", headers=headers)
+    try:
+        current_room_id = r.json()['room_id']
+        print(f'current room: {current_room_id}')
+    except KeyError:
+        print('Error: room_id does not exist')
+        print(r.json())
     time.sleep(r.json()['cooldown'])
 
-r = requests.post(f'{base_url}status/', headers=headers)
-time.sleep(r.json()['cooldown'])
-if r.json()['encumbrance'] >= r.json()['strength'] - 1:
-    if mode == 'sell':
-        sell_items(current_room_id, r.json()['inventory'])
-        current_room_id = STORE
-    elif mode == 'transmogrify':
-        transmogrify_items(current_room_id, r.json()['inventory'])
-        current_room_id = TRANSMOGRIFIER
+    # warp player if not in light world
+    if current_room_id not in range(0, 500):
+        print("Warping to light world")
+        r = requests.post(base_url + "adv/warp/", headers=headers)
+        print(r.json()['messages'][0])
+        current_room_id = r.json()['room_id']
+        print(f"Now in room {current_room_id}")
+        time.sleep(r.json()['cooldown'])
 
-# caves, traps, or any rooms only reachable by walking through caves or traps
-danger_zone = (488, 412, 310, 259, 263, 499, 456, 275, 242, 218, 216, 450, 445, 339, 287, 252, 234, 474, 447, 405, 303, 284, 368, 418, 415, 406, 361, 302, 469, 425, 454, 423, 408, 470, 459, 458, 422, 426, 457, 461)
+    r = requests.post(f'{base_url}status/', headers=headers)
+    time.sleep(r.json()['cooldown'])
+    if r.json()['encumbrance'] >= r.json()['strength'] - 1:
+        if mode == 'sell':
+            sell_items(current_room_id, r.json()['inventory'])
+            current_room_id = STORE
+        elif mode == 'transmogrify':
+            transmogrify_items(current_room_id, r.json()['inventory'])
+            current_room_id = TRANSMOGRIFIER
 
-while True:
-    # pick a new destination room
-    destination_room = random.randint(0, 499)
-    while current_room_id == destination_room or destination_room in danger_zone:
-            destination_room = random.randint(0, 499)
+    # caves, traps, or any rooms only reachable by walking through caves or traps
+    danger_zone = (488, 412, 310, 259, 263, 499, 456, 275, 242, 218, 216, 450, 445, 339, 287, 252, 234, 474, 447, 405, 303, 284, 368, 418, 415, 406, 361, 302, 469, 425, 454, 423, 408, 470, 459, 458, 422, 426, 457, 461)
 
-    # find a path to destination room
-    path = get_directions(current_room_id, destination_room, all_rooms)
-    print(path)
+    while True:
+        # pick a new destination room
+        destination_room = random.randint(0, 499)
+        while current_room_id == destination_room or destination_room in danger_zone:
+                destination_room = random.randint(0, 499)
 
-    # travel along path, picking up treasure along the way
-    # when reach max encumbrance, sell or transmogrify items
-    print(f"Walking to room {destination_room}")
-    action = gather_treasure(path)
+        # find a path to destination room
+        path = get_directions(current_room_id, destination_room, all_rooms)
+        print(path)
 
-    if action == 'sell':
-        current_room_id = STORE
-    elif action == 'transmogrify':
-        current_room_id = TRANSMOGRIFIER
-    else: 
-        current_room_id = destination_room
+        # travel along path, picking up treasure along the way
+        # when reach max encumbrance, sell or transmogrify items
+        print(f"Walking to room {destination_room}")
+        action = gather_treasure(path)
+
+        if action == 'sell':
+            current_room_id = STORE
+        elif action == 'transmogrify':
+            current_room_id = TRANSMOGRIFIER
+        else: 
+            current_room_id = destination_room

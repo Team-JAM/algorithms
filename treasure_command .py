@@ -1,10 +1,13 @@
-from loop_snitches import hunt_snitches, navigate
+import json
 import requests
 import sys
 import time
+from loop_treasure import hunt_treasure
+from optimized_path import optimized_path
+from optimized_travel import optimized_travel
 
-if len(sys.argv) != 2:
-    print('Usage: snitches_command.py player')
+if len(sys.argv) != 3:
+    print('Usage: loop_treasure.py player mode')
     sys.exit(1)
 
 player = sys.argv[1]
@@ -15,18 +18,37 @@ elif player == 'matthew' or player == 'm':
     token = 'a42506e85baef70dd9c66a7d0c090b10a3af26f8'
 elif player == 'jonathan' or player == 'j':
     token = '3e4095700cd0b276081a3ac8d4ae04e54a89b92e'
-base_url = "https://lambda-treasure-hunt.herokuapp.com/api/"
+
+mode = sys.argv[2]
+
+if mode == 's' or mode == 'sell':
+    mode = 'sell'
+elif mode == 't' or mode == 'transmogrify':
+    mode = 'transmogrify'
+elif mode == 'w' or mode == 'walk':
+    mode = 'walk'
+else:
+    print("Error: mode not recognized")
+    sys.exit(1)
+
+base_url = "https://lambda-treasure-hunt.herokuapp.com/api/adv/"
 headers = {"Authorization": f"Token {token}"}
 
+STORE = 1
+TRANSMOGRIFIER = 495
 DONUT_SHOP = 15
 
-def hunt_snitches_fast():
+# load room data
+with open('all_rooms.json') as f:
+    all_rooms = json.load(f)
+
+def hunt_treasure_fast():
     ### Group Mode ###
     # start with at least 2000 gold
     # move to donut shop
     # buy donut
     # set 5 minute timer
-    # hunt snitches for 5 minutes
+    # hunt treasure for 5 minutes
     # set 10 minute timer
     # gather treasure for 10 minutes
 
@@ -44,7 +66,9 @@ def hunt_snitches_fast():
         time.sleep(r.json()['cooldown'])
         # go to donut shop
         if current_room_id != DONUT_SHOP:
-            navigate(current_room_id, DONUT_SHOP)
+            path = optimized_path(all_rooms, current_room_id, DONUT_SHOP)
+            # walk to donut shop
+            optimized_travel(path, token, base_url, headers)
 
         # buy donut
         payload = {"name": "donut", "confirm": "yes"}
@@ -54,15 +78,15 @@ def hunt_snitches_fast():
         time_to_eat = time.time() + 300
         time.sleep(response.json()['cooldown'])
 
-        # hunt snitches for 5 minutes
-        hunt_snitches(time_to_eat=time_to_eat)
+        # hunt treasure for 5 minutes
+        hunt_treasure(time_to_eat=time_to_eat)
         # if less than 2000 gold
             # set 5 minute timer
             # gather treasure
             # repeat if needed
 
-hunt_snitches_fast()
+hunt_treasure_fast()
 
 while True:
     time.sleep(40)
-    hunt_snitches_fast()
+    hunt_treasure_fast()
