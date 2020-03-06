@@ -221,6 +221,7 @@ def hunt_treasure(time_to_eat=None):
     danger_zone = (488, 412, 310, 259, 263, 499, 456, 275, 242, 218, 216, 450, 445, 339, 287, 252, 234, 474, 447, 405, 303, 284, 368, 418, 415, 406, 361, 302, 469, 425, 454, 423, 408, 470, 459, 458, 422, 426, 457, 461)
 
     while True:
+        # eat when hungry
         if time_to_eat < time.time():
             return
         # pick a new destination room
