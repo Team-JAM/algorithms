@@ -12,6 +12,8 @@ def optimized_travel(path_directions, token, base_url, headers):
             payload = {'direction': instructions[1], 'next_room_id': instructions[2]}
         elif travel_mode == 'dash':
             payload = {'direction': instructions[1], 'num_rooms': instructions[2], 'next_room_ids': instructions[3]}
+        elif travel_mode == 'warp':
+            payload = {}
         elif travel_mode == 'recall':
             payload = {}
         
